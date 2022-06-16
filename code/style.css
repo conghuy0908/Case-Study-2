@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/*Banner*/
+#banner{
+    background:linear-gradient(rgba(0,0,0,0.5),#656666),
+    url("hinh1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.menu{
+    width: 100%;
+    height: 70px;
+    background: rgb(158, 168, 177);
+    position: fixed;
+    opacity: 0.6;
+}
+.logo{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.logo a{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+.link-menu{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.link{
+    width: 15%;
+    height: 100%;
+    display: inline-flex;
+    margin-left: 30px;
+    align-items: center;
+    line-height: 100%;
+    transition: none;
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100%;
+    align-items: center;
+}
+.link a:hover{
+    color: red;
+}
+.login{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.login-btn{
+    width: 100%;
+    height: 50%;
+}
+.login-btn a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top:3px;
+}
+.login-btn a:hover{
+    color: red;
+}
+.text-btn{
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+}
+.text-btn h1{
+    font-size:130px;
+    opacity: 0.6;
+}
+.text-btn p{
+    font-style: italic;
+    font-size: 30px;
+    opacity: 0.6;
+}
+.btn{
+    margin-top: 70px;
+}
+.btn a{
+    text-decoration: none;
+    position:relative;
+    width: 150px;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: 1px solid #616969;
+    transition: 0.5s color;
+    z-index: 1;
+}
+.btn a span{
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    background: #fff;
+    transition: 0.5s ;
+}
+.btn a:hover span{
+    width: 100%;
+}
+.btn a:hover{
+    color: black;
+}
+/*End-banner*/
+/*Main*/
+#main{
+    width: 100%;
+    height: 1200px;
+    margin-top: 5px;
+}
+.container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-gap: 10px;
+    padding-top: 10px;
+}
+.text-content,.items{
+    border: 1px solid black;
+}
+/*End-Main*/
+#section3{
+    width: 100%;
+    height: 205px;
+    margin-top: 10px;
+}
+.footer{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    margin-top: 20px;
+}
+.adress,.cash{
+    border-left: solid 1px rgb(192, 188, 188);
+}
+.list{
+    text-align: start;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.list a:hover{
+    color: red;
+}
+
+.adress{
+    text-align: center;
+    font-weight: bold;
+}
+.adress h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.adress p{
+    margin-top: 10px;
+}
+.cash{
+    text-align: center;
+}
+.cash h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.cash-icon{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cash-icon ul{
+    list-style: none;
+}
+.cash-icon ul li{
+    display: inline-block;
+}
+.cash-wallet{
+    margin-top: 15px;
+}
+.cash-wallet ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+/*End-Main*/
+/* Footer */
+.copyright{
+    width: 100%;
+    height: 30px;
+    background: black;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+
+}
+/*End Footer*/

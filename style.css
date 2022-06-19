@@ -5,7 +5,7 @@
 /*Banner*/
 #banner{
     background:linear-gradient(rgba(0,0,0,0.5),#656666),
-    url("hinh1.jpg");
+    url("./img/hinh1.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
